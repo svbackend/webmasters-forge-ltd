@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "classmap": [
+            "system/components",
+            "system/controllers",
+            "system/models"
+        ]
+    },
+    "require": {
+        "bramus/router": "~1.0",
+        "league/plates": "3.*"
+    }
+}

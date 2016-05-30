@@ -1,0 +1,183 @@
+/*
+ * General styles
+ */
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: #0066CC;
+}
+
+.card-container .card {
+    padding: 40px 40px;
+}
+
+.card-registration {
+    width: 100%;
+    padding: 40px 40px;
+}
+
+.card-login {
+    width: 100%;
+    padding: 40px 40px;
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/*
+ * Card component
+ */
+.card {
+    background-color: #fff;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+@media (min-width: 768px) {
+    .card .card-title {
+        font-size: 2.2em;
+        margin: 0 0 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .card .card-title {
+        font-size: 1.4em;
+        margin: 0 0 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .card .card-title {
+        font-size: 1em;
+        margin: 0 0 10px 0;
+    }
+}
+
+
+.form input,
+.form button,
+.form .input-group {
+    margin-bottom: 10px;
+}
+
+.form .required:after {
+    color: red;
+    content: " *";
+}
+
+.form .form-control:focus {
+    border-color: #0685FF;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #0066CC;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #0066CC;
+}
+
+.checkbox, .radio {
+    margin-top: 0;
+}
+
+.btn-signin {
+    /*background-color: #4d90fe; */
+    background-color: #0066CC;
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn-signup {
+    background-color: #54cc52;
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn-signin:hover,
+.btn-signin:active,
+.btn-signin:focus {
+    background-color: #0685FF;
+}
+
+.full-width {
+    max-width: 100%;
+}
+
+.toggle-password {
+    cursor: pointer;
+}
+
+.validationErrorMessage {
+    margin-top: -2px;
+    color: rgba(255, 0, 0, 0.8);
+    font-size: 0.9em;
+    display: block;
+    width: 100%;
+}
+
+.textareaValidationErrorMessage {
+    margin-top: 3px;
+    color: rgba(255, 0, 0, 0.8);
+    font-size: 0.9em;
+    display: block;
+    width: 100%;
+}
+
+.has-error {
+    border-color: rgba(255, 0, 0, 0.6);
+}
+
+.has-success {
+    border-color: rgba(0, 127, 0, 0.6);
+}
