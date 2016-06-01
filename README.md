@@ -13,5 +13,8 @@
 Уcтановка:
 * Скопировать себе
 * `composer install`
-* Создать БД, в `system/config/db.php` прописать данные.
+* Создать БД, после чего в `system/config/db.php` прописать данные.
 * Готово.
+
+Живой пример:
+[forge.sv-backend.xyz](http://forge.sv-backend.xyz)
